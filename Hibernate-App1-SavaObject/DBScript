@@ -1,0 +1,11 @@
+SQL> create table employeeInfo(empNo number(5) primary key,ename varchar2(20),job varchar2(10),salary number(10,2));
+
+Table created.
+
+SQL> desc employeeInfo;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMPNO                                     NOT NULL NUMBER(5)
+ ENAME                                              VARCHAR2(20)
+ JOB                                                VARCHAR2(10)
+ SALARY                                             NUMBER(10,2)
